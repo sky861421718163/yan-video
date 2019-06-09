@@ -48,7 +48,7 @@ Page({
               icon: "none",
               duration: 3000
             }),
-            app.setGlobalUserInfo(res.data.data);
+            //app.setGlobalUserInfo(res.data.data);
             //注册成功页面跳转到 我的
             wx.redirectTo({
               url: '../mine/mine',
